@@ -1,0 +1,66 @@
+
+  .modal{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,0.2);;
+    width: 100vw;
+    height: 100vh;
+  }
+
+  .modalBox{
+    width: 250px;
+    height: 312px;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    background-color: #dedede;
+    padding: 20px;
+  }
+
+  .updatetitle{
+    border: 1px solid #dee;
+    border-radius: 10px;
+    outline: none;
+    padding: 5px;
+    height: 35px;
+    margin-bottom: 10px;
+    width: 210px;
+    border: 1px solid grey;
+  }
+
+  .updatedesc{
+    border: 1px solid #dee;
+    border-radius: 10px;
+    outline: none;
+    width: 210px;
+    border: 1px solid grey;
+  }
+
+  .updatebuttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+
+  .savebutton{
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background-color: green;
+    color: white;
+  }
+  .modalcancelbutton{
+    height: 30px;
+    border-radius: 10px;
+    width: 100px;
+    border: 1px solid red;
+    outline: none;
+    color:red;
+    background-color: transparent;
+  }

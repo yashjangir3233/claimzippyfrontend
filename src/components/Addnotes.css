@@ -1,0 +1,94 @@
+
+.completepack{
+    display:flex; 
+ }
+
+.Addnotes{
+    display: flex;
+    flex-direction: column;
+    width: 240px;
+    height: 300px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid #dee0e3;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    padding: 14px;
+    padding-top: 15px;
+    background-image: linear-gradient(top, green, green 17%, transparent 17%, transparent 100%);
+    background-image: -webkit-linear-gradient(top, green, green 17%, transparent 17%, transparent 100%) 
+}
+
+.addnotetitle{
+    padding-bottom: 35px;
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+textarea{
+    resize: none;
+    outline: none;
+}
+
+.withgrad{
+    max-height: 312px;
+    max-width: 250px;
+  padding: 1rem;
+  position: relative;
+  border: 1px solid #d1d0cd;
+  padding: 5px;
+  border-radius: 24px;
+}
+
+.notetitle{
+    width: 210px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #585957;
+    outline: none;
+    margin-bottom: 10px;
+    padding-top: 0;
+    font-size: medium;
+    padding-left: 5px;
+}
+
+.notedesc{
+    width: 210px;
+    border-radius: 10px;
+    border: 1px solid #585957;
+    outline: none;
+    margin-bottom: 10px;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.addbutton{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    background-color: green;
+    outline: none;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.cancelbutton{
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    outline: none;
+    border-radius: 5px;
+    background-color: white;
+    color: red;
+    border: 1px solid red;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+.buttons{
+    display: flex;
+    justify-content: space-between;
+}
